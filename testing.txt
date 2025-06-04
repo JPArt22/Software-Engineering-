@@ -1,1 +1,27 @@
+Testing
+
+Es el proceso de ejecutar un programa/aplicación/software en un entorno controlado para verificar si se comporta como se  espera
+
+• Detectar y corregir errores.
+• Proporcionar calidad y confiabilidad del software.
+• Asegurar la correcta funcionalidad del producto.
+• Evitar futuros errores.
+• Facilitar la toma de decisiones para pasar a producción los desarrollos que no contengan errores.
+• Cumplir con los requisitos del negocio y satisfacción del usuario.
+• Evitar la aparición de nuevos defectos en el futuro que puedan afectar al software.
+
+Test automatizados y Test manueales
+
+Test manuales en:
+
+• Caja blanca: conocemos el código
+• Caja negra: no conocemos el código
+• Caja gris: conocemos el código medianamente
+
+IMPORTANTE
+Test unitario: parte específica del código
+Test de integración: módulos de software
+UI: todo el sistema
+
+
 
