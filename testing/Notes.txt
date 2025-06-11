@@ -1,5 +1,6 @@
 Testing
 
+Backlog --> Prioriza y organiza las funcionalidades a desarrollar
 Es el proceso de ejecutar un programa/aplicación/software en un entorno controlado para verificar si se comporta como se  espera
 
 • Detectar y corregir errores.
@@ -24,4 +25,32 @@ Test de integración: módulos de software
 UI: todo el sistema
 
 
+Un buen test 
+  Fast
+  Independent
+  Respeteable
+  Self-validating
+  Timely
+
+Buenas prácticas de Clean Code
+  • Evitar bucles anidados innecesarios
+  • Descomponer condicionales complejos
+  • Usar nombres descriptivos (en variables y funciones)
+  • Agrupar el código por bloques lógicos (separar visualmente con líneas o espacios --> Enter)
+  • Una responsabilidad por funcion 
+  • Reducir el alcance de las variables (declararlas lo más cerca de donde se usen)
+  • Mantener la consistencia en el estilo (misma forma de nombrar, espaciar y estructurar el código
+  • Controlar el flujo con claridad (evitar múltiples puntos de salida o entradas díficiles de seguir) IMPORTANTE
+  • Hacer pruebas mentales de lectura en el código
+  • Priorizar la simplicidad sobre la inteligencia (no dárselas de hacer en una lína muchas líneas de código) --> para      que otros lo entiendad también
+  • Evitar los booleanos implícitos
+  • No mezclar niveles de abstracción en una misma función (una función por responsabilidad o compartimiento)
+  • Nombrar funciones como si se respondiera una pregunta
+  • Preferir estructuras de control cortas con retornos tempranos
+  • Hacer que las estructuras de datos "cuenten una historia"
+  • Usar excepciones para lo excepcional, no para control de flujo común (ejemplo: no usar try catch si no es necesario)
+  • No depender del orden visual para la lógica
+  • Reducir las bifucarciones horizontales
+  • Evitar usar estructuras genéricas cuando se puede usar tipos más expresivos (como las clases)
+  • Usar lógica declarativa cuando sea posible
 
